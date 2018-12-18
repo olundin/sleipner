@@ -1,6 +1,6 @@
--- sleipner workspace
-workspace "sleipner"
-    filename "sleipner"
+-- sleipnir workspace
+workspace "sleipnir"
+    filename "sleipnir"
 	architecture "x64"
     configurations {
         "debug",    -- debug: logging, debugging
@@ -8,5 +8,5 @@ workspace "sleipner"
         "dist"      -- distribution: no logging, no debugging
     }
 
-include "sleipner"
+include "sleipnir"
 include "sandbox"

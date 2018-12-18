@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{145A6C82-8039-EB1D-8951-76F4F5AF517F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sleipner", "sleipner\sleipner.vcxproj", "{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sleipnir", "sleipnir\sleipnir.vcxproj", "{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,12 +18,12 @@ Global
 		{145A6C82-8039-EB1D-8951-76F4F5AF517F}.dist|x64.Build.0 = dist|x64
 		{145A6C82-8039-EB1D-8951-76F4F5AF517F}.release|x64.ActiveCfg = release|x64
 		{145A6C82-8039-EB1D-8951-76F4F5AF517F}.release|x64.Build.0 = release|x64
-		{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}.debug|x64.ActiveCfg = debug|x64
-		{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}.debug|x64.Build.0 = debug|x64
-		{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}.dist|x64.ActiveCfg = dist|x64
-		{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}.dist|x64.Build.0 = dist|x64
-		{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}.release|x64.ActiveCfg = release|x64
-		{C7EC1B0A-B3B9-7615-DCD2-64BDC8FEABA3}.release|x64.Build.0 = release|x64
+		{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}.debug|x64.ActiveCfg = debug|x64
+		{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}.debug|x64.Build.0 = debug|x64
+		{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}.dist|x64.ActiveCfg = dist|x64
+		{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}.dist|x64.Build.0 = dist|x64
+		{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}.release|x64.ActiveCfg = release|x64
+		{4BED1B0A-37BA-7615-60D3-64BD4CFFABA3}.release|x64.Build.0 = release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

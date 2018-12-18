@@ -7,11 +7,11 @@ project "sandbox"
     targetdir "bin"
     objdir "obj"
 
-    includedirs {"include", "../sleipner/include"}
-    libdirs {"lib", "../sleipner/lib", "../sleipner/bin"}
+    includedirs {"inc", "../sleipnir/inc"}
+    libdirs {"lib", "../sleipnir/lib", "../sleipnir/bin"}
 
     files {"src/**.cpp", "src/**.h"}
-    links {"sleipner"}
+    links {"sleipnir"}
 
 	filter "system:windows"
 		systemversion "latest"

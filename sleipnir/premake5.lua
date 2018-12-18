@@ -1,5 +1,5 @@
 -- sandbox project
-project "sleipner"
+project "sleipnir"
     kind "SharedLib"
     language "C++"
 	cppdialect "C++11"
@@ -7,7 +7,7 @@ project "sleipner"
     targetdir "bin"
     objdir "obj"
 
-    includedirs {"include"}
+    includedirs {"inc"}
     libdirs {"lib"}
 
     files {"src/**.cpp", "src/**.h"}

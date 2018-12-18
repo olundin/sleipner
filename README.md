@@ -1,4 +1,4 @@
-﻿# sleipner
+﻿# sleipnir
 A game engine as fast as the eight-legged horse 🐎.
 
 
