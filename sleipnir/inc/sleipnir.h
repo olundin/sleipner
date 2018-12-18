@@ -1,6 +1,5 @@
 #pragma once
 
-
 #ifdef SL_PLATFORM_WINDOWS
 // windows specific code
 #endif

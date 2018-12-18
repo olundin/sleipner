@@ -8,18 +8,21 @@ project "sandbox"
     objdir "obj"
 
     includedirs {"inc", "../sleipnir/inc"}
-    libdirs {"lib", "../sleipnir/lib", "../sleipnir/bin"}
 
     files {"src/**.cpp", "src/**.h"}
     links {"sleipnir"}
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "On"
+        staticruntime "On"
+        defines {"SL_PLATFORM_WINDOWS"}
 
-	filter "configurations:debug"
+    filter "configurations:debug"
+        defines {"SL_CONFIGURATION_DEBUG"}
         symbols "On"
     filter "configurations:release"
+        defines {"SL_CONFIGURATION_RELEASE"}
         optimize "On"
     filter "configurations:dist"
+        defines {"SL_CONFIGURATION_DIST"}
         optimize "On"

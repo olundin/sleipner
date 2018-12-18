@@ -14,16 +14,16 @@ project "sleipnir"
     links {"glfw3"}
 
     filter "system:windows"
-        defines "SL_PLATFORM_WINDOWS"
+        defines {"SL_PLATFORM_WINDOWS", "SL_BUILD_DLL"}
 		systemversion "latest"
 		staticruntime "On"
 
     filter "configurations:debug"
-        defines "SL_CONFIGURATION_DEBUG"
+        defines {"SL_CONFIGURATION_DEBUG"}
         symbols "On"
     filter "configurations:release"
-        defines "SL_CONFIGURATION_RELEASE"
+        defines {"SL_CONFIGURATION_RELEASE"}
         optimize "On"
     filter "configurations:dist"
-        defines "SL_CONFIGURATION_DIST"
+        defines {"SL_CONFIGURATION_DIST"}
         optimize "On"
