@@ -1,5 +1,5 @@
 ﻿# sleipner
-Game engine as fast as the eight-legged horse 🐎.
+A game engine as fast as the eight-legged horse 🐎.
 
 
 ## Building
