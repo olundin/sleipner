@@ -10,7 +10,7 @@ project "sleipnir"
     includedirs {"inc"}
     libdirs {"lib"}
 
-    files {"src/**.cpp", "src/**.h"}
+    files {"src/**.cpp", "src/**.h", "inc/**.h"}
     links {"glfw3"}
 
     filter "system:windows"
@@ -27,3 +27,6 @@ project "sleipnir"
     filter "configurations:dist"
         defines {"SL_CONFIGURATION_DIST"}
         optimize "On"
+
+	-- doesn't work for some reason?
+	postbuildcommands {("{COPY} bin/sleipnir.dll ../sandbox/bin")}

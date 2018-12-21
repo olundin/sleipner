@@ -8,9 +8,11 @@ project "sandbox"
     objdir "obj"
 
     includedirs {"inc", "../sleipnir/inc"}
+	libdirs {"lib", "../sleipnir/bin"}
 
-    files {"src/**.cpp", "src/**.h"}
+    files {"src/**.cpp", "src/**.h", "inc/**.h"}
     links {"sleipnir"}
+	copylocal {"sleipnir"}
 
 	filter "system:windows"
 		systemversion "latest"
